@@ -7,7 +7,7 @@ pipeline {
         sh 'firefox --version'
       }
     }
-    stage('Run Tests') {
+    stage('Running Tests') {
       steps {
         sh './mvnw clean test'
       }
